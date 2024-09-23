@@ -104,10 +104,7 @@ This is a full-stack Blog Application built with React.js (Vite) and Tailwind CS
 
 ## Project Structure
 
-
 Here’s the correct project structure in markdown format for you to easily copy and paste:
-
-## Project Structure
 
 ```
 bloggy-application/
