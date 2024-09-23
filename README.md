@@ -1,8 +1,8 @@
-# Bloggy Application
+# Bloggy 🖐️
 
 This is a full-stack Blog Application built with React.js (Vite) and Tailwind CSS for the frontend, and Django for the backend. The application allows users to create, read, update, and delete blog posts.
 
-## Features
+## Features 😌
 
 - Create, read, update, and delete blog posts
 - Rich text editor for writing posts
@@ -10,7 +10,7 @@ This is a full-stack Blog Application built with React.js (Vite) and Tailwind CS
 - SweetAlert2 notifications for delete and edit actions
 - Alerts triggered when content or title is changed before updating posts
 
-## Tech Stack
+## Tech Stack 😎
 
 ### Frontend
 - **React.js** (with Vite)
