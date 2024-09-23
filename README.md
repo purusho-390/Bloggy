@@ -109,14 +109,6 @@ Here’s the correct project structure in markdown format for you to easily copy
 
 ## Project Structure
 
-# Bloggy Application Structure
-
-## Directory Structure
-
-# Bloggy Application Structure
-
-## Directory Structure
-
 ```
 bloggy-application/
 ├── backend/
