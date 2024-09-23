@@ -111,29 +111,33 @@ md
 Copy code
 ## Project Structure
 
+# Bloggy Application Structure
+
+## Directory Structure
+
 bloggy-application/
 │
 ├── backend/
-│ ├── blog/ # Django project files
-│ ├── blog_app/ # Blog application files
-│ ├── manage.py # Django management script
-│ ├── requirements.txt # Python dependencies
-│ └── ...
+│   ├── blog/                 # Django project files
+│   ├── blog_app/             # Blog application files
+│   ├── manage.py             # Django management script
+│   ├── requirements.txt      # Python dependencies
+│   └── ...
 │
 └── frontend/
-├── src/ # React components and pages
-│ ├── assets/ # Static assets (images, icons, etc.)
-│ ├── components/ # Reusable React components
-│ ├── pages/ # Pages for different routes
-│ ├── App.jsx # Main application component
-│ └── main.jsx # React entry point
-├── public/ # Public assets (favicon, etc.)
-├── index.html # Main HTML file for React app
-├── tailwind.config.js # Tailwind CSS configuration
-├── postcss.config.js # PostCSS configuration
-├── vite.config.js # Vite configuration
-├── package.json # Node.js dependencies
-└── ...
+    ├── src/                  # React components and pages
+    │   ├── assets/           # Static assets (images, icons, etc.)
+    │   ├── components/       # Reusable React components
+    │   ├── pages/            # Pages for different routes
+    │   ├── App.jsx           # Main application component
+    │   └── main.jsx          # React entry point
+    ├── public/               # Public assets (favicon, etc.)
+    ├── index.html            # Main HTML file for React app
+    ├── tailwind.config.js     # Tailwind CSS configuration
+    ├── postcss.config.js      # PostCSS configuration
+    ├── vite.config.js         # Vite configuration
+    ├── package.json           # Node.js dependencies
+    └── ...
 
 
 ## API Endpoints
@@ -152,9 +156,6 @@ Tailwind CSS is used to style the frontend. You can customize the design in the 
 ### SweetAlert2
 SweetAlert2 is used to display confirmation alerts for delete and edit actions. The alert is triggered after making changes to the post's content or title and clicking the update button.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
@@ -162,6 +163,6 @@ Feel free to contribute to this project by submitting issues or pull requests.
 
 ## Contact
 
-- Developer: [Your Name](https://github.com/your-username)
+- Developer: [Purushothaman M](https://github.com/purusho-390)
 - Email: purushothaman.mohans@gmail.com
 
