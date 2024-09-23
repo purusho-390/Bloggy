@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.truncate-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+  }
+  
+
+  .swal-custom-popup {
+    
+    width: 300px; 
+    padding: 5px; 
+}
