@@ -113,30 +113,31 @@ Here’s the correct project structure in markdown format for you to easily copy
 
 ## Directory Structure
 
+# Bloggy Application Structure
+
+## Directory Structure
+
+```
 bloggy-application/
-│
 ├── backend/
 │   ├── blog/                 # Django project files
 │   ├── blog_app/             # Blog application files
-│   ├── manage.py             # Django management script
-│   ├── requirements.txt      # Python dependencies
-│   └── ...
-│
-└── frontend/
-    ├── src/                  # React components and pages
-    │   ├── assets/           # Static assets (images, icons, etc.)
-    │   ├── components/       # Reusable React components
-    │   ├── pages/            # Pages for different routes
-    │   ├── App.jsx           # Main application component
-    │   └── main.jsx          # React entry point
-    ├── public/               # Public assets (favicon, etc.)
-    ├── index.html            # Main HTML file for React app
-    ├── tailwind.config.js     # Tailwind CSS configuration
-    ├── postcss.config.js      # PostCSS configuration
-    ├── vite.config.js         # Vite configuration
-    ├── package.json           # Node.js dependencies
-    └── ...
-│
+│   └── manage.py             # Django management script
+├── requirements.txt          # Python dependencies
+├── frontend/
+│   ├── src/                  # React components and pages
+│   │   ├── assets/           # Static assets (images, icons, etc.)
+│   │   ├── components/       # Reusable React components
+│   │   ├── pages/            # Pages for different routes
+│   │   └── App.jsx           # Main application component
+│   └── main.jsx              # React entry point
+├── public/                   # Public assets (favicon, etc.)
+│   └── index.html            # Main HTML file for React app
+├── tailwind.config.js        # Tailwind CSS configuration
+├── postcss.config.js         # PostCSS configuration
+├── vite.config.js            # Vite configuration
+└── package.json              # Node.js dependencies
+```
 
 ## API Endpoints
 
